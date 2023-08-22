@@ -1,6 +1,6 @@
 function App() {
-  const name = "리액투";
-  return <>{name === "리액트" && <h1>리액트입니다</h1>}</>;
+  const name = undefined;
+  return <div>{name || "값이 undefined 입니다."}</div>;
 }
 
 export default App;
