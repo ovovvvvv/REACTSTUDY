@@ -1,6 +1,7 @@
-function App() {
-  const name = undefined;
-  return <div>{name || "값이 undefined 입니다."}</div>;
-}
+import MyComponent from "./Mycomponent";
+
+const App = () => {
+  return <MyComponent />;
+};
 
 export default App;
